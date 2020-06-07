@@ -2,15 +2,11 @@ body {
     margin: 0;
 }
 
-img {
-    -webkit-filter: grayscale(100%); 
-    filter: grayscale(100%);
-}
-
 #header {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color: #f1f4f7;
-    /*background-image: url('../images/protestorimage.jpg');*/
+    color: black;
+    
+    background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("../images/protestorimage.jpg");
     background-color: #242323;
     text-align: left;
     padding-left: 150px;
@@ -20,12 +16,12 @@ img {
 
 #header h1 {
     font-size: 70px;
-    font-weight: lighter;
+    
 }
 
 #header p {
     font-size: 20px;
-    font-weight: lighter;
+    
 }
 
 .navbar {
